@@ -1,0 +1,97 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner */
+.banner {
+    background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+
+
+/* Ola SVG */
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px; /* Ajusta la altura según tus necesidades */
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    display: block;
+    width: 100%; /* Asegura que ocupe todo el ancho */
+    height: 100%; /* Ajusta la proporción */
+    preserveAspectRatio: none;  /*Evita deformaciones */ 
+}
+
+
+
+
+
+/* Portafolio */
+#portfolio img {
+    transition: transform 0.3s ease;
+}
+
+#portfolio img:hover {
+    transform: scale(1.05);
+}
+
+
+/* Estilo para la sección de información */
+.info-section {
+    background-color: #f8f9fa; /* Fondo claro */
+}
+
+.info-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.info-section p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.info-section img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-section img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.info-section h3 {
+    color: #222;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+}
